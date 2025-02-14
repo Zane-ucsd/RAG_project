@@ -1,2 +1,0 @@
-# RAG_project
-RAG
