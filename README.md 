@@ -1,0 +1,13 @@
+rag_project/
+│── data/                  # 存放向量数据库 & 文档
+│   ├── vector.index        # FAISS 向量索引
+│   ├── docs.npy            # 存储原始文档
+│
+│── src/
+│   ├── embedder.py         # 文本向量化（Sentence Transformers）
+│   ├── retriever.py        # FAISS 向量检索
+│   ├── generator.py        # GPT-4 生成回答
+│   ├── main.py             # 主程序
+│
+│── requirements.txt        # 依赖安装文件
+│── README.md               # 项目说明
